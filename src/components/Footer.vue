@@ -1,6 +1,6 @@
 <template>
-  <footer class="backdrop-opacity-10 backdrop-invert bg-white/5 py-2 px-10 rounded-full mx-28 ">
-    <div class="px-4 py-6 md:flex md:items-center md:justify-between ">
+  <footer class="backdrop-opacity-10 backdrop-invert bg-white/5 md:px-10 rounded-full  md:mx-28 ">
+    <div class="p-2 px-10 md:flex md:items-center md:justify-between ">
       <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"> Make with <span class="text-red-800">
           ♥</span> © 2023. All Rights Reserved.
       </span>

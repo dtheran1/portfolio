@@ -1,3 +1,6 @@
 body {
   background: rgb(17,24,40);
+  background-image: url('../assets/IMG_20221231_220433_692.jpg');
+  background-position: center;
+  background-size: cover;
 }
