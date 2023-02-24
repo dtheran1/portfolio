@@ -1,7 +1,7 @@
 <template>
   <nav class="bg-gray-700 border-gray-200 px-2 sm:px-4 py-2.5">
     <div class="flex flex-wrap items-center justify-between mx-auto">
-      <p class="font-bold text-gray-100 hidden w-full md:block md:w-auto">Daniel</p>
+      <router-link to="/" class="font-bold text-gray-100 hidden w-full md:block md:w-auto">Daniel</router-link>
       <!-- <button data-collapse-toggle="navbar-default" type="button"
         class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
         aria-controls="navbar-default" aria-expanded="false" @click="swichMenu">
@@ -20,17 +20,19 @@
             Inicio
           </router-link>
           <router-link to="/about"
-            class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 hover:underline">
-            Sobre mi
+            class="block py-2 pl-3 pr-4 text-white hover:text-green-500 rounded md:bg-transparent md:p-0 hover:underline">
+            <span class="">
+              Sobre mi
+            </span>
           </router-link>
           <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 mx-6 sm:h-6" />
 
           <router-link to="/skills"
-            class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 hover:underline">
+            class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 hover:underline">
             Skills
           </router-link>
           <router-link to="/contact"
-            class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 hover:underline">
+            class="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent md:p-0 hover:underline">
             Contacto
           </router-link>
         </ul>
