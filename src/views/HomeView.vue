@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
-  <main class="flex items-center justify-center min-h-screen">
-    <p class="text-xl text-white">Hey I'm Daniel, <span class="hover:text-green-300">a developer</span> </p>
+  <main class="flex items-center justify-center min-h-screen text-white bg-gradient-to-r from-cyan-500 to-blue-500">
+    <div>
+      <p class="text-7xl font-bold">DANIEL</p>
+      <p class="text-7xl font-bold">THERAN</p>
+      <p class="mt-2 transition duration-700 ease-in-out hover:scale-110">Frontend Developer</p>
+    </div>
   </main>
 </template>

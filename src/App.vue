@@ -5,7 +5,9 @@ import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <Nav />
-  <RouterView />
-  <Footer />
+  <div class="bg-gradient-to-r from-cyan-500 to-blue-500">
+    <Nav />
+    <RouterView />
+    <Footer />
+  </div>
 </template>
